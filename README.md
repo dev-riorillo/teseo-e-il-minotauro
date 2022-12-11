@@ -22,6 +22,6 @@ Per generare un labirinto perfetto è stato utilizzato un algoritmo che, a parti
 La cella raggiunta diventa il nuovo punto iniziale e le istruzioni sin qui elencate si ripetono.
 Nel caso in cui fossero state visitate tutte le celle adiacenti, l'algoritmo ritorna all'ultima cella che presenta dei muri finché questa non coincide con quella presente alle coordinate specificate per il punto di partenza.
 
-Partendo da un labirinto perfetto, è possibile generarne uno non perfetto rimuovendo le cosiddette dead-ends, ovvero quelle celle che presentano tre muri.
+Partendo da un labirinto perfetto, è possibile generarne uno non perfetto rimuovendo le cosiddette **dead-ends**, ovvero quelle celle che presentano tre muri.
 Per farlo, è sufficiente iterare sulla matrice rappresentativa del labirinto, individuare le celle con questa caratteristica e abbattere i muri adiacenti.
 
